@@ -57,7 +57,10 @@ bintray {
         licenses = allLicenses
         publish = true
         publicDownloadNumbers = true
+        githubRepo = 'bintray/gradle-bintray-plugin' //Optional Github repository
+        githubReleaseNotesFile = 'README.md' //Optional Github readme file
         version {
+            name = libraryVersion //Bintray logical version name
             desc = libraryDescription
             gpg {
                 sign = true //Determines whether to GPG sign the files. The default is false
