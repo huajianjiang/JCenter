@@ -57,7 +57,7 @@ bintray {
         licenses = allLicenses
         publish = true
         publicDownloadNumbers = true
-        githubRepo = 'bintray/gradle-bintray-plugin' //Optional Github repository
+        githubRepo = 'huajianjiang/ExpandableRecyclerView' //Optional Github repository
         githubReleaseNotesFile = 'README.md' //Optional Github readme file
         version {
             name = libraryVersion //Bintray logical version name
