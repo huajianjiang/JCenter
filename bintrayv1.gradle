@@ -57,8 +57,6 @@ bintray {
         licenses = allLicenses
         publish = true
         publicDownloadNumbers = true
-        githubRepo = 'huajianjiang/ExpandableRecyclerView' //Optional Github repository
-        githubReleaseNotesFile = 'README.md' //Optional Github readme file
         version {
             name = libraryVersion //Bintray logical version name
             desc = libraryDescription
